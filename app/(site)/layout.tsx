@@ -126,17 +126,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    siteName: 'Table Church',
-    title: 'Table Church',
-    description:
-      'Real community. Real discipleship. Real revival. St Pete saved.',
-    images: [
-      {
-        url: 'https://table-church.com/opengraph.jpg',
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: 'Revive 25',
+    title: 'Revive 25',
+    description: 'Prayer & Worship, Signs & Wonders, Dec 27th - 29th',
+    // images: [
+    //   {
+    //     url: 'https://table-church.com/opengraph.jpg',
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
   },
 }
 
