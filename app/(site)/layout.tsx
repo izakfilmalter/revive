@@ -1,4 +1,3 @@
-import { RefreshRouteOnSave } from '@/components/refreshRouteOnSave'
 import { cn } from '@/lib/utils'
 
 import './globals.css'
@@ -163,8 +162,6 @@ export default function RootLayout({
           fontSerif.variable,
         )}
       >
-        <RefreshRouteOnSave />
-
         <main className={'bg-page-gradient flex w-full flex-col'}>
           {children}
         </main>

@@ -39,9 +39,8 @@ function isLessThan6DaysFromFirstSunday(): boolean {
 }
 
 // Helper function to get the first Sunday of a given date
-const getFirstSunday = (x: Date): Date => {
-  return pipe(x, addDays(pipe(getDay(x), (y) => (7 - y) % 7)))
-}
+const getFirstSunday = (x: Date): Date =>
+  pipe(x, addDays(pipe(getDay(x), (y) => (7 - y) % 7)))
 
 export const CalendarCard: FC = () => (
   <div
