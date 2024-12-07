@@ -116,8 +116,8 @@ const fontSerif = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Table Church',
-  description: 'A church for the harvest.',
+  title: 'Revive 25',
+  description: 'Prayer & Worship, Signs & Wonders, Dec 27th - 29th',
   icons: {
     icon: [
       { url: '/favicon-32x32.png', sizes: '32x32' },
