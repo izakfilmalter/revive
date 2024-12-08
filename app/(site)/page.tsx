@@ -9,17 +9,17 @@ export default function Home() {
   return (
     <div
       className={
-        'grid min-h-screen w-screen grid-cols-2 grid-rows-3 gap-4 p-4 lg:grid-cols-3 lg:grid-rows-2'
+        'grid min-h-screen w-screen grid-cols-2 gap-4 p-4 lg:grid-cols-3 lg:grid-rows-2'
       }
     >
       <div
         className={
-          'col-span-2 row-start-2 flex flex-col items-start gap-2 rounded-3xl bg-red-100 p-8 text-left lg:row-start-1'
+          'col-span-2 row-start-2 flex flex-col items-start justify-end gap-2 rounded-3xl bg-red-100 p-4 text-left md:p-8 lg:row-start-1'
         }
       >
         <h1
           className={
-            'text-[min(calc((100vw-32px)/5.2),96px)] font-black leading-[.85]'
+            'text-[min(calc((100vw-64px)/5.15),96px)] font-black leading-[.85] md:text-[80.2px] xl:text-[96px]'
           }
         >
           REVIVE 25
@@ -27,7 +27,7 @@ export default function Home() {
 
         <h2
           className={
-            'text-[min(calc((100vw-32px)/6.3),53px)] font-black leading-[1]'
+            'text-[min(calc((100vw-64px)/6.62),53px)] font-black leading-[1] md:text-[44px] xl:text-[53px]'
           }
         >
           Prayer & Worship
@@ -35,7 +35,7 @@ export default function Home() {
 
         <h2
           className={
-            'text-[min(calc((100vw-32px)/7.1),54px)] font-black leading-[1]'
+            'text-[min(calc((100vw-64px)/6.7),54px)] font-black leading-[1] md:text-[45px] xl:text-[54px]'
           }
         >
           Signs & Wonders
@@ -43,7 +43,7 @@ export default function Home() {
 
         <h2
           className={
-            'text-[min(calc((100vw-32px)/7.3),59.5px)] font-black leading-[1]'
+            'text-[min(calc((100vw-64px)/6.68),59.5px)] font-black leading-[1] md:text-[49.8px] xl:text-[59.5px]'
           }
         >
           Dec 27th - 29th
