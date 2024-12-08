@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 const imageBoxClassName =
-  'w-full h-full w-full relative rounded-3xl overflow-hidden aspect-square'
+  'w-full h-full w-full relative rounded-3xl overflow-hidden aspect-square min-h-[40vh] lg:min-h-[auto]'
 
 export default function Home() {
   return (
