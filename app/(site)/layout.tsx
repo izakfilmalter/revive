@@ -161,9 +161,7 @@ export default function RootLayout({
           fontSerif.variable,
         )}
       >
-        <main className={'bg-page-gradient flex w-full flex-col'}>
-          {children}
-        </main>
+        <main className={'flex w-full flex-col overflow-auto'}>{children}</main>
       </body>
     </html>
   )
