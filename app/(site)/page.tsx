@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 const imageBoxClassName =
@@ -14,40 +15,53 @@ export default function Home() {
     >
       <div
         className={
-          'col-span-2 row-start-2 flex flex-col items-start justify-end gap-2 rounded-3xl bg-red-100 p-4 text-left md:p-8 lg:row-start-1'
+          'col-span-2 row-start-2 flex flex-col items-start justify-end gap-2 rounded-3xl bg-red-100 p-4 text-left md:flex-row md:items-end md:justify-between md:p-8 lg:row-start-1'
         }
       >
-        <h1
-          className={
-            'text-[min(calc((100vw-64px)/5.15),96px)] font-black leading-[.85] md:text-[80.2px] xl:text-[96px]'
-          }
-        >
-          REVIVE 25
-        </h1>
+        <div className={'flex flex-col items-start gap-2'}>
+          <h1
+            className={
+              'text-[min(calc((100vw-64px)/5.15),96px)] font-black leading-[.85] md:text-[80.2px] xl:text-[96px]'
+            }
+          >
+            REVIVE 25
+          </h1>
 
-        <h2
-          className={
-            'text-[min(calc((100vw-64px)/6.62),53px)] font-black leading-[1] md:text-[44px] xl:text-[53px]'
-          }
-        >
-          Prayer & Worship
-        </h2>
+          <h2
+            className={
+              'text-[min(calc((100vw-64px)/6.62),53px)] font-black leading-[1] md:text-[44px] xl:text-[53px]'
+            }
+          >
+            Prayer & Worship
+          </h2>
 
-        <h2
-          className={
-            'text-[min(calc((100vw-64px)/6.7),54px)] font-black leading-[1] md:text-[45px] xl:text-[54px]'
-          }
-        >
-          Signs & Wonders
-        </h2>
+          <h2
+            className={
+              'text-[min(calc((100vw-64px)/6.7),54px)] font-black leading-[1] md:text-[45px] xl:text-[54px]'
+            }
+          >
+            Signs & Wonders
+          </h2>
 
-        <h2
-          className={
-            'text-[min(calc((100vw-64px)/6),41.3px)] font-black leading-[1] md:text-[41.3px] xl:text-[49.7px]'
-          }
-        >
-          Jan 31st - Feb 2nd
-        </h2>
+          <h2
+            className={
+              'text-[min(calc((100vw-64px)/6),41.3px)] font-black leading-[1] md:text-[41.3px] xl:text-[49.7px]'
+            }
+          >
+            Jan 31st - Feb 2nd
+          </h2>
+        </div>
+
+        <Button size={'lg'} asChild>
+          <a
+            href={
+              'https://tabernacle-center.churchcenter.com/registrations/events/2701942'
+            }
+            target={'_blank'}
+          >
+            Register
+          </a>
+        </Button>
       </div>
 
       <div className={cn(imageBoxClassName, '')}>
