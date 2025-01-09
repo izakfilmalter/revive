@@ -117,7 +117,7 @@ const fontSerif = localFont({
 
 export const metadata: Metadata = {
   title: 'Revive 25',
-  description: 'Prayer & Worship, Signs & Wonders, Dec 27th - 29th',
+  description: 'Prayer & Worship, Signs & Wonders, Jan 31st - Feb 2nd',
   icons: {
     icon: [
       { url: '/favicon-32x32.png', sizes: '32x32' },
@@ -128,7 +128,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'Revive 25',
     title: 'Revive 25',
-    description: 'Prayer & Worship, Signs & Wonders, Dec 27th - 29th',
+    description: 'Prayer & Worship, Signs & Wonders, Jan 31st - Feb 2nd',
     // images: [
     //   {
     //     url: 'https://table-church.com/opengraph.jpg',

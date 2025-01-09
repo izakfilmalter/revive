@@ -43,10 +43,10 @@ export default function Home() {
 
         <h2
           className={
-            'text-[min(calc((100vw-64px)/6.68),59.5px)] font-black leading-[1] md:text-[49.8px] xl:text-[59.5px]'
+            'text-[min(calc((100vw-64px)/6),41.3px)] font-black leading-[1] md:text-[41.3px] xl:text-[49.7px]'
           }
         >
-          Dec 27th - 29th
+          Jan 31st - Feb 2nd
         </h2>
       </div>
 
